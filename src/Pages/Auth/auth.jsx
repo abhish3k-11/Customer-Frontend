@@ -21,6 +21,7 @@ function Auth({ setAuthState }) {
                     <div className='flex flex-row pt-5'>
                         <div className='rounded-full drop-shadow-lg p-5 bg-[#E3F5F4] h-10 w-48 flex justify-center items-center'>
                             <Assets.Keyboard className='w-6' />
+                            {/* Add validation and display toast on failure aordingly */}
                             <input type="text" placeholder='Enter Code' className='w-24 ml-2 pb-1 focus:outline-0 bg-[#E3F5F4]' />
                         </div>
                         <div

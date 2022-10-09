@@ -13,7 +13,7 @@ function App() {
     <>
       {!authState ?
         <Pages.Auth setAuthState={setAuthState} /> :
-        <div>Logged In</div>
+        <Pages.Main setAuthState={setAuthState} />
       }
     </>
   );
